@@ -25,3 +25,13 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# ------ My settings ------
+
+# idea
+.idea/
+*.iml
+# fvm
+.fvm/flutter_sdk
+# melos
+pubspec_overrides.yaml
