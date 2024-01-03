@@ -1,7 +1,7 @@
 name: Feature request
 description: 機能要望を提出する
 title: "[FR]: "
-labels: [ "enhancement" ]
+labels: [ "type: feature" ]
 body:
   - type: markdown
     attributes:
