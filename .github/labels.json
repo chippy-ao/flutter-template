@@ -1,0 +1,104 @@
+[
+  {
+    "name": "type: bug",
+    "color": "ff7f7f",
+    "aliases": [
+      "bug"
+    ]
+  },
+  {
+    "name": "type: feature",
+    "color": "7fffff",
+    "aliases": [
+      "feature"
+    ]
+  },
+  {
+    "name": "type: improvement",
+    "color": "ff7fff",
+    "aliases": [
+      "improvement"
+    ]
+  },
+  {
+    "name": "type: docs",
+    "color": "7fffbf",
+    "aliases": [
+      "docs"
+    ]
+  },
+  {
+    "name": "type: version",
+    "color": "ffbf7f",
+    "aliases": [
+      "version"
+    ]
+  },
+  {
+    "name": "type: tool",
+    "color": "bfff7f",
+    "aliases": [
+      "ci",
+      "tool"
+    ]
+  },
+  {
+    "name": "status: help wanted",
+    "color": "ffff7f",
+    "aliases": [
+      "help wanted"
+    ]
+  },
+  {
+    "name": "priority: low",
+    "color": "93c9ff"
+  },
+  {
+    "name": "priority: medium",
+    "color": "ffff93"
+  },
+  {
+    "name": "priority: high",
+    "color": "ff93c9"
+  },
+  {
+    "name": "core: network",
+    "color": "d1a3ff"
+  },
+  {
+    "name": "core: database",
+    "color": "a3a3ff"
+  },
+  {
+    "name": "core: datasource",
+    "color": "ffa3a3"
+  },
+  {
+    "name": "core: data",
+    "color": "ffd1a3"
+  },
+  {
+    "name": "core: model",
+    "color": "ffffa3"
+  },
+  {
+    "name": "core: domain",
+    "color": "d1ffa3"
+  },
+  {
+    "name": "core: testing",
+    "color": "a3ffa3"
+  },
+  {
+    "name": "core: ui",
+    "color": "ffa3ff"
+  },
+  {
+    "name": "core: design",
+    "color": "ffa3d1"
+  },
+  {
+    "name": "core: common",
+    "color": "a3d1ff"
+  }
+]
