@@ -1,5 +1,5 @@
 # https://github.com/azu/github-label-setup
-name: Update Labels
+name: Setup Labels
 on:
   workflow_dispatch:
 jobs:
