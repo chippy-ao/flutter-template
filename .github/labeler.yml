@@ -7,21 +7,21 @@ labels:
   - label: "type: feature"
     title: '^(:sparkles:|:tada:|:art:).*'
   - label: "type: improvement"
-    title: '^(:\\+1:|:recycle:|:rocket:).*'
+    title: '^(:\+1:|:recycle:|:rocket:).*'
   - label: "type: docs"
     title: '^:books:.*'
     files:
       - "docs/.+"
-      - "**/README\\.md"
+      - "**/README\.md"
   - label: "type: version"
     title: '^:up:.*'
     files:
-      - "**/pubspec\\.yaml"
-      - "**/melos\\.yaml"
+      - "**/pubspec\.yaml"
+      - "**/melos\.yaml"
   - label: "type: tool"
     title: '^:wrench:.*'
     files:
-      - '\\.github/.+'
+      - '\.github/.+'
       - 'tools/.+'
 
   # Core Package labels
