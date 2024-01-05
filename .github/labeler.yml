@@ -28,7 +28,7 @@ labels:
   - label: "core: network"
     files:
       - "packages/core/network/.+"
-  - label: "core: detabase"
+  - label: "core: database"
     files:
       - "packages/core/database/.+"
   - label: "core: datastore"
