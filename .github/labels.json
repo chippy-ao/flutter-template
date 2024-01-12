@@ -1,41 +1,43 @@
 [
   {
-    "name": "type: bug",
+    "name": "@type/fix",
     "color": "ff7f7f",
     "aliases": [
-      "bug"
+      "bug",
+      "fix"
     ]
   },
   {
-    "name": "type: feature",
+    "name": "@type/feature",
     "color": "7fffff",
     "aliases": [
       "feature"
     ]
   },
   {
-    "name": "type: improvement",
+    "name": "@type/improve",
     "color": "ff7fff",
     "aliases": [
       "improvement"
     ]
   },
   {
-    "name": "type: docs",
+    "name": "@type/docs",
     "color": "7fffbf",
     "aliases": [
       "docs"
     ]
   },
   {
-    "name": "type: version",
+    "name": "@type/build",
     "color": "ffbf7f",
     "aliases": [
-      "version"
+      "version",
+      "build"
     ]
   },
   {
-    "name": "type: tool",
+    "name": "@type/ci",
     "color": "bfff7f",
     "aliases": [
       "ci",
@@ -62,43 +64,47 @@
     "color": "ff93c9"
   },
   {
-    "name": "core: network",
+    "name": "@core/network",
     "color": "d1a3ff"
   },
   {
-    "name": "core: database",
+    "name": "@core/database",
     "color": "a3a3ff"
   },
   {
-    "name": "core: datastore",
+    "name": "@core/datastore",
     "color": "ffa3a3"
   },
   {
-    "name": "core: data",
+    "name": "@core/data",
     "color": "ffd1a3"
   },
   {
-    "name": "core: model",
+    "name": "@core/model",
     "color": "ffffa3"
   },
   {
-    "name": "core: domain",
+    "name": "@core/domain",
     "color": "d1ffa3"
   },
   {
-    "name": "core: testing",
+    "name": "@core/testing",
     "color": "a3ffa3"
   },
   {
-    "name": "core: ui",
+    "name": "@core/ui",
     "color": "ffa3ff"
   },
   {
-    "name": "core: design",
+    "name": "@core/designsystem",
     "color": "ffa3d1"
   },
   {
-    "name": "core: common",
+    "name": "@core/common",
     "color": "a3d1ff"
+  },
+  {
+    "name": "@application",
+    "color": "a3ffd1"
   }
 ]

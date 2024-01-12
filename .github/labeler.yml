@@ -2,62 +2,78 @@ version: 1
 
 labels:
   # Type labels
-  - label: "type: bug"
+  - label: "@type/fix"
     title: '^:bug:.*'
-  - label: "type: feature"
+
+  - label: "@type/feature"
     title: '^(:sparkles:|:tada:|:art:).*'
-  - label: "type: improvement"
+
+  - label: "@type/improve"
     title: '^(:\+1:|:recycle:|:rocket:).*'
-  - label: "type: docs"
+
+  - label: "@type/docs"
     title: '^:books:.*'
     files:
       - "docs/.+"
       - "**/README\.md"
-  - label: "type: version"
+
+  - label: "@type/build"
     title: '^:up:.*'
     files:
       - "**/pubspec\.yaml"
       - "**/melos\.yaml"
-  - label: "type: tool"
+
+  - label: "@type/ci"
     title: '^:wrench:.*'
     files:
       - '\.github/.+'
       - 'tools/.+'
 
   # Core Package labels
-  - label: "core: network"
+  - label: "@core/network"
     files:
-      - "packages/core/network/.+"
-  - label: "core: database"
+      - "core/network/.+"
+
+  - label: "@core/database"
     files:
-      - "packages/core/database/.+"
-  - label: "core: datastore"
+      - "core/database/.+"
+
+  - label: "@core/datastore"
     files:
-      - "packages/core/datastore/.+"
-  - label: "core: data"
+      - "core/datastore/.+"
+
+  - label: "@core/data"
     files:
-      - "packages/core/data/.+"
-  - label: "core: model"
+      - "core/data/.+"
+
+  - label: "@core/model"
     files:
-      - "packages/core/model/.+"
-  - label: "core: domain"
+      - "core/model/.+"
+
+  - label: "@core/domain"
     files:
-      - "packages/core/domain/.+"
-  - label: "core: testing"
+      - "core/domain/.+"
+
+  - label: "@core/testing"
     files:
-      - "packages/core/testing/.+"
-  - label: "core: ui"
+      - "core/testing/.+"
+
+  - label: "@core/ui"
     files:
-      - "packages/core/ui/.+"
-  - label: "core: design"
+      - "core/ui/.+"
+
+  - label: "@core/designsystem"
     files:
-      - "packages/core/design/.+"
-  - label: "core: common"
+      - "core/designsystem/.+"
+
+  - label: "@core/common"
     files:
-      - "packages/core/common/.+"
+      - "core/common/.+"
 
   # Feature Package labels
   # TBD
 
-  # Apps labels
-  # TBD
+  # App labels
+  - label: "@application"
+    files:
+      - "app/.+"
