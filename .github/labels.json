@@ -45,22 +45,22 @@
     ]
   },
   {
-    "name": "status: help wanted",
+    "name": "@status/help wanted",
     "color": "ffff7f",
     "aliases": [
       "help wanted"
     ]
   },
   {
-    "name": "priority: low",
+    "name": "@priority/low",
     "color": "93c9ff"
   },
   {
-    "name": "priority: medium",
+    "name": "@priority/medium",
     "color": "ffff93"
   },
   {
-    "name": "priority: high",
+    "name": "@priority/high",
     "color": "ff93c9"
   },
   {
