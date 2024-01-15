@@ -9,5 +9,4 @@ dependencies:
 
 dev_dependencies:
   test: 1.24.0
-  yumemi_lints:
-    git: https://github.com/yumemi-inc/flutter-yumemi-lints.git
+  yumemi_lints: 1.4.0
