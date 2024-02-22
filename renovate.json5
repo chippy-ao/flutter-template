@@ -6,16 +6,7 @@
     ":prHourlyLimitNone",
     ":timezone(Asia/Tokyo)",
   ],
-  "commitMessagePrefix": ":wrench:",
   "dependencyDashboard": false,
-  "enabledManagers": [
-    "fvm",
-    "pub",
-    "gradle",
-    "cocoapods",
-    "github-actions",
-    "gradle-wrapper",
-  ],
   "labels": [
     "dependencies"
   ],
@@ -23,12 +14,30 @@
   "rangeStrategy": "pin",
   "packageRules": [
     {
+      "matchManagers": [
+        "github-actions",
+      ],
+      "labels": [
+        "ignore for release",
+      ]
+    },
+    {
+      "groupName": "flutter",
+      "matchPackageNames": [
+        "dart",
+        "flutter",
+      ],
+    },
+    {
       "groupName": "riverpod",
       "matchPackageNames": [
         "flutter_riverpod",
         "hooks_riverpod",
         "riverpod",
+        "riverpod_annotation",
+        "riverpod_generator",
+        "riverpod_lint",
       ],
-    }
+    },
   ]
 }
