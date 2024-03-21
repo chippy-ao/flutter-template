@@ -4,5 +4,5 @@ name: flutter_template
 environment:
   sdk: 3.3.2
 dev_dependencies:
-  melos: 5.2.0
+  melos: 5.2.1
   yumemi_lints: 1.7.0
