@@ -5,4 +5,4 @@ environment:
   sdk: 3.5.0
 dev_dependencies:
   melos: 5.3.0
-  yumemi_lints: 1.7.0
+  yumemi_lints: 2.2.0
