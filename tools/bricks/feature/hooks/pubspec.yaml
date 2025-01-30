@@ -1,7 +1,7 @@
 name: feature_hooks
 
 environment:
-  sdk: 3.6.1
+  sdk: 3.6.2
 
 dependencies:
   mason: "0.1.0"
