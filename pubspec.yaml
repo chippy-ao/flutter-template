@@ -2,7 +2,7 @@
 name: flutter_template
 
 environment:
-  sdk: 3.6.2
+  sdk: 3.7.0
 dev_dependencies:
   melos: 5.3.0
   yumemi_lints: 1.7.0
